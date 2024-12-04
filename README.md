@@ -41,6 +41,9 @@ Sprint 4 : Ajout des quiz et déploiement via GitHub Pages.
 _____________________________________________________________________________________________________________________________________________________________________________________________________________________
 📧 Contact
 Pour toute question ou suggestion, veuillez contacter :
+
 Auteur : Rhouma Mohamed
+
 📬medrhouma1234@gmail.com
+
 🔗https://github.com/medrhouma
