@@ -1,31 +1,57 @@
 const questions = [
-    {
-      question: "Quelle planète est connue sous le nom de Planète Rouge ?",
-      options: ["Mercure", "Mars", "Jupiter", "Vénus"],
-      correctAnswer: 1
-    },
-    {
-      question: "Quelle est la plus grande planète du système solaire ?",
-      options: ["Terre", "Jupiter", "Saturne", "Neptune"],
-      correctAnswer: 1
-    },
-    {
-      question: "Quelle planète est la plus proche du Soleil ?",
-      options: ["Vénus", "Terre", "Mercure", "Mars"],
-      correctAnswer: 2
-    },
-    {
-      question: "Quelle planète possède le système d'anneaux le plus étendu ?",
-      options: ["Saturne", "Jupiter", "Uranus", "Neptune"],
-      correctAnswer: 0
-    },
-    {
-      question: "Quelle est la plus petite planète du système solaire ?",
-      options: ["Pluton", "Mars", "Mercure", "Vénus"],
-      correctAnswer: 2
-    }
-  ];
-  
+  {
+    question: "Quelle planète est connue sous le nom de Planète Rouge ?",
+    options: ["Mercure", "Mars", "Jupiter", "Vénus"],
+    correctAnswer: 1
+  },
+  {
+    question: "Quelle est la plus grande planète du système solaire ?",
+    options: ["Terre", "Jupiter", "Saturne", "Neptune"],
+    correctAnswer: 1
+  },
+  {
+    question: "Quelle planète est la plus proche du Soleil ?",
+    options: ["Vénus", "Terre", "Mercure", "Mars"],
+    correctAnswer: 2
+  },
+  {
+    question: "Quelle planète possède le système d'anneaux le plus étendu ?",
+    options: ["Saturne", "Jupiter", "Uranus", "Neptune"],
+    correctAnswer: 0
+  },
+  {
+    question: "Quelle est la plus petite planète du système solaire ?",
+    options: ["Pluton", "Mars", "Mercure", "Vénus"],
+    correctAnswer: 2
+  },
+  // Questions supplémentaires
+  {
+    question: "Quelle planète a la journée la plus longue ?",
+    options: ["Mercure", "Vénus", "Mars", "Terre"],
+    correctAnswer: 1
+  },
+  {
+    question: "Quelle est la seule planète habitée connue ?",
+    options: ["Mars", "Vénus", "Terre", "Jupiter"],
+    correctAnswer: 2
+  },
+  {
+    question: "Quelle planète a des vents supersoniques ?",
+    options: ["Uranus", "Neptune", "Saturne", "Jupiter"],
+    correctAnswer: 1
+  },
+  {
+    question: "Quelle planète est surnommée la planète géante gazeuse ?",
+    options: ["Jupiter", "Neptune", "Uranus", "Saturne"],
+    correctAnswer: 0
+  },
+  {
+    question: "Quelle planète est inclinée à 98 degrés ?",
+    options: ["Saturne", "Neptune", "Uranus", "Mars"],
+    correctAnswer: 2
+  }
+];
+
   let currentQuestionIndex = 0;
   let score = 0;
   
