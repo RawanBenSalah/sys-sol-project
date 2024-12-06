@@ -1,53 +1,89 @@
 <!doctype html>
-<html lang="en">
+<html lang="fr">
 <head>
-  <title>Erreur de Connexion</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
- 
-  <style>
-    .error-page {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-      background-color: #1f2029;
-      color: #ffeba7;
-      font-family: 'Poppins', sans-serif;
-    }
-    .error-content {
-      text-align: center;
-    }
-    .error-content h1 {
-      font-size: 72px;
-      margin-bottom: 20px;
-    }
-    .error-content p {
-      font-size: 18px;
-      margin-bottom: 20px;
-    }
-    .btn-home {
-      padding: 10px 20px;
-      border-radius: 4px;
-      background-color: #ffeba7;
-      color: #000000;
-      text-decoration: none;
-      font-weight: 600;
-    }
-    .btn-home:hover {
-      background-color: #000000;
-      color: #ffeba7;
-    }
-  </style>
+    <title>Erreur de Connexion</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            font-family: 'Poppins', sans-serif;
+            background-color: #1f2029;
+            color: #ffeba7;
+        }
+        .error-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            text-align: center;
+        }
+        .error-card {
+            background: rgba(31, 32, 41, 0.8);
+            border-radius: 15px;
+            padding: 40px;
+            max-width: 500px;
+            width: 90%;
+            border: 2px solid #ffeba7;
+            box-shadow: 0 15px 35px rgba(255, 235, 167, 0.1);
+        }
+        .logo {
+            width: 120px;
+            height: 120px;
+            background-color: #ffeba7;
+            color: #1f2029;
+            border-radius: 50%;
+            margin: 0 auto 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 48px;
+            font-weight: bold;
+        }
+        .error-icon {
+            font-size: 80px;
+            color: #ffeba7;
+            margin-bottom: 20px;
+        }
+        .error-title {
+            font-size: 42px;
+            margin-bottom: 15px;
+        }
+        .error-message {
+            font-size: 18px;
+            margin-bottom: 25px;
+        }
+        .btn-return {
+            display: inline-block;
+            background-color: #ffeba7;
+            color: #1f2029;
+            padding: 12px 25px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+        .btn-return:hover {
+            background-color: #1f2029;
+            color: #ffeba7;
+            border: 2px solid #ffeba7;
+        }
+    </style>
 </head>
 <body>
-  <div class="error-page">
-    <div class="error-content">
-      <h1>Erreur</h1>
-      <p>Email ou mot de passe incorrect.</p>
-      <a href="login.html" class="btn-home">Retour à la page de connexion</a>
+    <div class="error-container">
+        <div class="error-card">
+            <div class="logo">L</div>
+            <i class="fas fa-exclamation-triangle error-icon"></i>
+            <h1 class="error-title">Erreur</h1>
+            <p class="error-message">Identifiants incorrects. Veuillez réessayer.</p>
+            <a href="login.html" class="btn-return">
+                <i class="fas fa-arrow-left"></i> Retour à la connexion
+            </a>
+        </div>
     </div>
-  </div>
 </body>
 </html>
